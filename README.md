@@ -2,3 +2,4 @@
 [test 2](./README.md)
 [test 3](./broken.md)
 [test 4](https://github.com/gaurav-nelson/github-action-markdown-link-check/blob/master/www.exampleexample.cox)
+[test 5](https://waieoraqweorfaower.aweruiahweriawer.aweriohaweiruhawer/awerawera/werioawetjaoiega/a/jio)

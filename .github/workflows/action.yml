@@ -1,13 +1,12 @@
-on:
-  push:
-    paths:
-    - '*.md'
-    - '/docs/*'
-name: Testing linkcheck
+name: Check Markdown links
+
+on: pull_request
+
 jobs:
   markdown-link-check:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: md-linkcheck
-      uses: ./
+      with:
+        fetch-depth: 1
+    - uses: gaurav-nelson/github-action-markdown-link-check@0.4.0
